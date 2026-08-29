@@ -1,1 +1,1 @@
-[Phase 1 Report](docs/phase_1.pdf) [Phase 2 Report](docs/phase_2.pdf)
+[Phase 1 Report](plagiarism_checker/phase_1.pdf) [Phase 2 Report](plagiarism_checker/phase_.pdf)
