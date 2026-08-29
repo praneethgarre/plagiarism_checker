@@ -28,7 +28,6 @@ std::vector<int> getTokenSequence(const std::string& filename) {
     return tokens;
 }
 
-
 std::pair<int, std::vector<std::pair<int,int>>> longestCommonSubsequenceWithPositions(const std::vector<int>& submission1, const std::vector<int>& submission2) {
     int size_1=submission1.size();
     int size_2=submission2.size();
@@ -62,7 +61,7 @@ std::pair<int, std::vector<std::pair<int,int>>> longestCommonSubsequenceWithPosi
     }
     std::reverse(lcs_positions.begin(), lcs_positions.end());
     return {dp[size_1][size_2],lcs_positions};
-}
+}   
 // Function to find the maximum matching pattern length from a given position (i) in submission1. Also updates the positions in submission2 such that the matched things are not recounted twice.
 //std::map<int,std::set<int>>& submission2_positions , used set to track positions , since O(logn) deletion and O(logn) search for set.
 int find_max_string_from(std::map<int,std::set<int>>& submission2_positions,std::vector<int>& submission1,int i,int size){
